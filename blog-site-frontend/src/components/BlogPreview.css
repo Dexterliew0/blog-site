@@ -1,0 +1,45 @@
+#blog-preview {
+    background-color: #99d9ba1a;
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.blog-link {
+    text-decoration: none;
+    color: black;
+    height: 100%
+}
+
+.blog-link h2 {
+    font-weight: 400;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.blog-link p {
+    font-weight: 400;
+    overflow: hidden;
+    max-height: 172px;
+}
+
+#author-date {
+    display: flex;
+}
+
+#author {
+    margin-right: 40px;
+}
+
+@media (max-width: 1200px) {
+    .blog-link p {
+        max-height: 153px;
+    }
+}

@@ -1,0 +1,83 @@
+#post-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+}
+
+#blog-post {
+    background-color: #99d9ba1a;
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#title-content h1 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#title-content p {
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+#author-date {
+    font-size: 18px;
+    color: rgb(97, 97, 97);
+}
+
+#author {
+    margin-right: 40px;
+}
+
+#comments {
+    width: 90%;
+}
+
+#comment-title-form {
+    background-color: #99d9ba1a;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+    padding: 20px;
+    height: 275px;
+}
+
+#date-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#edit-delete-buttons button {
+    width: 100px;
+    height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 5px;
+    background-color: #99D9BA;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+@media (max-width: 699px) {
+    #date-buttons {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    #edit-delete-buttons button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}

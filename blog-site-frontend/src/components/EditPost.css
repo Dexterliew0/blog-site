@@ -1,0 +1,96 @@
+#edit-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+#edit-post h1 {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    background-color: #99d9ba1a;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+#edit-post form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 20px;
+    background-color: #99d9ba1a;
+    margin-top: 25px;
+}
+
+#title-input {
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    resize: none;
+}
+
+#title-input:focus {
+    outline: none;
+}
+
+#text-input {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    resize: none;
+}
+
+#text-input:focus {
+    outline: none;
+}
+
+#edit-post-buttons {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#back-button {
+    width: 100px;
+    height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 5px;
+    background-color: #99D9BA;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#edit-post-button {
+    width: 200px;
+    height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 5px;
+    background-color: #99D9BA;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#edit-post p {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    background-color: #99d9ba1a;
+    padding: 20px;
+}

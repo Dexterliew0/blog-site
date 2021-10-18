@@ -1,0 +1,45 @@
+#comment {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #99d9ba1a;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#comment-text {
+    margin-bottom: 20px;
+}
+
+#comment-author {
+    margin-right: 40px;
+}
+
+#comment-author-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#comment-buttons button {
+    width: 100px;
+    height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 5px;
+    background-color: #99D9BA;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+@media (max-width: 699px) {
+    #comment-author-buttons {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    #comment-buttons button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}

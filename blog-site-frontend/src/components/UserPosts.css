@@ -1,0 +1,16 @@
+#user-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#user-posts h1 {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    background-color: #99d9ba1a;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
